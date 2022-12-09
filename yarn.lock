@@ -498,6 +498,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/line-clamp@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@tailwindcss/line-clamp@npm:0.4.2"
+  peerDependencies:
+    tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  checksum: 26b8135df24fff51c3d3790ae795bdc12bc4a7113fa22dcab80568ae6ee00710e2ed4154048958c472bb654061f0f1573b7ac5e004ae6222cbd5ac6fcf199478
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -3359,10 +3368,12 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@heroicons/react": ^2.0.13
+    "@tailwindcss/line-clamp": ^0.4.2
     "@types/node": 18.11.3
     "@types/react": 18.0.21
     "@types/react-dom": 18.0.6
     autoprefixer: ^10.4.12
+    encoding: ^0.1.13
     graphql: ^16.6.0
     graphql-request: ^5.0.0
     next: latest
